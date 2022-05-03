@@ -15,19 +15,49 @@
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <style></style>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
-
-    <div class="attribution">
+    <main>
+      <section id="header-img">
+        <div class="overlay">
+          <!-- Overlay -->
+        </div>
+        <!-- <img src="./images/image-header-desktop.jpg" alt="image" /> -->
+      </section>
+      <section id="about">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div id="stats">
+          <div>
+            <h2>10k+</h2>
+            <h3>companies</h3>
+          </div>
+          <div>
+            <h2>314</h2>
+            <h3>templates</h3>
+          </div>
+          <div>
+            <h2>12m+</h2>
+            <h3>queries</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://www.richcreek.dev">Damien Richcreek</a>.
-    </div>
+    </footer>
   </body>
 </html>
